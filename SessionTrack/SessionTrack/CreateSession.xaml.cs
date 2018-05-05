@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace SessionTrack
 {
-    public partial class ProfilePage : ContentPage
+    public partial class CreateSession : ContentPage
     {
-        public ProfilePage()
+        public CreateSession()
         {
             InitializeComponent();
         }

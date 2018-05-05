@@ -3,6 +3,7 @@
 
     
     <local:HomeOverviewPage></local:HomeOverviewPage>
+    <local:CreateSession></local:CreateSession>
     <local:ProfilePage></local:ProfilePage>
     <local:ProgressPage></local:ProgressPage>
     <local:GroupsPage></local:GroupsPage>
