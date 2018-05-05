@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SessionTrack.LoginPage" NavigationPage.HasNavigationBar="false">
+
+    <AbsoluteLayout>
+        <Image Source="https://hollymulcahy-wpengine.netdna-ssl.com/wp-content/uploads/Cavani-Hero-2016.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"></Image>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            
+            <Label Text="Session Track" FontSize="36" TextColor="White" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Practice, Hit Goals, Master." FontSize="16" TextColor="White" HorizontalTextAlignment="Center"></Label>
+            <BoxView HeightRequest="1" Color="White"></BoxView>
+
+            <Label Text="Email:" TextColor="White"></Label>
+            <Entry x:Name="email" Keyboard="Email" Placeholder="Bob@email.com"></Entry>
+            <Label Text="Password:" TextColor="White"></Label>
+            <Entry x:Name="password" IsPassword="true" Placeholder="**********"></Entry>
+            <BoxView HeightRequest="1" Color="White"></BoxView>
+
+            <Button Text="Login" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2"></Button>
+            <Button Text="Register" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2" Clicked="Handle_Clicked"></Button>
+            
+        </StackLayout>
+        
+    </AbsoluteLayout>
+    
+</ContentPage>
