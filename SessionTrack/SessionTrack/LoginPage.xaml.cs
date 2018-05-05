@@ -12,6 +12,11 @@ namespace SessionTrack
             InitializeComponent();
         }
 
+        async void Handle_LoginButtonClicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushModalAsync(new HomePage());
+        }
+
         async void Handle_RegisterButtonClicked(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new RegisterPage());

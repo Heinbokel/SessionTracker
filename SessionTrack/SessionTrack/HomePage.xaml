@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SessionTrack.HomePage" xmlns:local="clr-namespace:SessionTrack" >
+
+    <ContentPage Title="Home" Icon="homepage.png" BackgroundColor="Teal">
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            
+            <Label Text="Dashboard" TextColor="White" FontSize="36" HorizontalTextAlignment="Center"></Label>
+            <Button Text="Start Session" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2"></Button>
+            <Button Text="Set Goals" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2"></Button>
+            <BoxView HeightRequest="1" Color="White"></BoxView>
+            
+            <Button Text="Find a Tutor" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2"></Button>
+            <Button Text="Be a Tutor" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2"></Button>
+            
+        </StackLayout>
+    </ContentPage>
+    
+    <local:ProfilePage></local:ProfilePage>
+    <local:ProgressPage></local:ProgressPage>
+    <local:GroupsPage></local:GroupsPage>
+    
+</TabbedPage>
