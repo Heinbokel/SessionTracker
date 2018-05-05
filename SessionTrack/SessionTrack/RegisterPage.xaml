@@ -1,5 +1,33 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SessionTrack.RegisterPage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SessionTrack.RegisterPage" BackgroundColor="Teal">
+
+    <ScrollView>
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            
+            <Label Text="Create an Account" FontSize="36" TextColor="White" HorizontalTextAlignment="Center"></Label>
+            <Label x:Name="errorLabel" Text="" FontSize="16" TextColor="Red" HorizontalTextAlignment="Center"></Label>
+            <BoxView HeightRequest="1" Color="White"></BoxView>
+
+            <Label Text="Email:" TextColor="White"></Label>
+            <Entry x:Name="email" Keyboard="Email" Placeholder="Bob@email.com"></Entry>
+            
+            <Label Text="Password:" TextColor="White"></Label>
+            <Entry x:Name="password" IsPassword="true" Placeholder="**********"></Entry>
+            
+            <Label Text="Confirm Password:" TextColor="White"></Label>
+            <Entry x:Name="confirmPassword" IsPassword="true" Placeholder="**********"></Entry>
+            
+            <Label Text="First Name:" TextColor="White"></Label>
+            <Entry x:Name="firstName" Keyboard="Text" Placeholder="Ellie"></Entry>
+            
+            <Label Text="Last Name:" TextColor="White"></Label>
+            <Entry x:Name="lastName" Keyboard="Text" Placeholder="Green"></Entry>
+            
+            <BoxView HeightRequest="1" Color="White"></BoxView>
+
+            <Button Text="Register" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2"></Button>
+            
+            </StackLayout>
+        </ScrollView>
+    
 </ContentPage>

@@ -17,7 +17,7 @@
             <BoxView HeightRequest="1" Color="White"></BoxView>
 
             <Button Text="Login" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2"></Button>
-            <Button Text="Register" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2" Clicked="Handle_Clicked"></Button>
+            <Button Text="Register" BackgroundColor="White" TextColor="Black" BorderRadius="10" Margin="0,2" Clicked="Handle_RegisterButtonClicked"></Button>
             
         </StackLayout>
         
